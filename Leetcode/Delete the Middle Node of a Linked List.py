@@ -6,10 +6,6 @@
 
 class Solution(object):
     def deleteMiddle(self, head):
-        """
-        :type head: Optional[ListNode]
-        :rtype: Optional[ListNode]
-        """
         slow=head
         fast=head
         n=0
